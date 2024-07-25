@@ -71,4 +71,28 @@ body {
     font-family: var(--ff-base);
     font-size: var(--fs-400);
     font-weight: var(--fw-regular);
+    color: var(--clr-neutral-800);
+    line-height: 1.5;
+}
+
+.newsletter-cta {}
+
+.newsletter-cta>.content {
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem;
+
+}
+
+.newsletter-cta .title {
+    font-size: var(--fs-900);
+    font-weight: var(--fw-bold);
+}
+
+
+
+.checkmark-list li::before {
+    /* color: red; */
+    content: url('/assets/images/icon-list.svg');
+
 }
